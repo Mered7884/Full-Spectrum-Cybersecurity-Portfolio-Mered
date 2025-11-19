@@ -1,87 +1,197 @@
 📘 Windows Event Log Threat Detection
-
-A Blue Team project by Mered Mulugeta
-
+A Complete Blue Team / SOC Analyst Project by Mered Mulugeta
 🔍 Project Summary
 
-This project focuses on detecting malicious activity using Windows Event Logs, building detection rules, and documenting investigation workflows based on real-world threat behaviors.
+This end-to-end project simulates how SOC Analysts, Threat Hunters, and Blue Team professionals detect, investigate, and respond to malicious activity using Windows Event Logs.
+It includes:
+
+Real & simulated Windows security events
+
+Detection rule creation (Sigma-style YAML rules)
+
+Threat hunting analysis
+
+Incident investigation workflows
+
+Power BI dashboards
+
+CSV datasets for visualization
+
+A realistic attack storyline and full SOC documentation
+
+This project is built for portfolio visibility, to help recruiters quickly understand your capabilities in log analysis, detection engineering, and cyber defense.
 
 🧱 Project Structure
 Windows-Event-Log-Threat-Detection/
 │
-├── Data-Samples/            # Raw Event Log samples (XML, JSON, EVTX)
-├── Detection-Rules/         # Sigma rules, custom rules, YAML detections
-├── Investigation-Notes/     # Step-by-step investigations
-├── Screenshots/             # Analysis screenshots
-└── README.md                # Project overview
+├── Data-Samples/               # Raw & cleaned event logs (XML, CSV, JSON)
+├── Detection-Rules/            # Sigma-style rules, YAML detections
+├── Investigation-Notes/        # SOC investigation steps, incident timeline
+├── Screenshots/                # Dashboards, event logs, detections
+└── README.md                   # Project overview (this file)
 
 🎯 Objectives
 
-Understand and analyze Windows Event IDs used in threat detection.
+This project demonstrates job-ready skills that SOC Analysts and Threat Hunters use daily:
 
-Build Sigma-style detection rules.
+Understand and analyze critical Windows Event IDs
 
-Simulate and document real-world threat scenarios.
+Extract and process logs for detection and hunting
 
-Develop Blue Team investigation and triage documentation.
+Build Sigma-style detection rules
 
-🛑 Threat Scenarios Covered
+Identify brute force, persistence, lateral movement & PowerShell abuse
 
-Examples (you will add them as we build):
+Create an incident investigation timeline
 
-Suspicious PowerShell Execution
+Visualize threats using Power BI dashboards
 
-Event ID 4104 — PowerShell Script Block Logging
+Document findings like a real SOC case
 
-Event ID 4688 — New Process Creation
+Present Blue Team skills to recruiters
 
-Brute Force Logon Attempts
+🔥 Threat Scenarios Covered
+
+This project includes beginner → expert level threat scenarios mapped to real-world attack behavior.
+
+1. Brute Force Logon Attacks
 
 Event ID 4625 — Failed Logons
 
-Event ID 4768 — Kerberos Authentication Requests
+Event ID 4624 — Successful Logons
 
-Privilege Escalation Attempts
+Event ID 4768/4769 — Kerberos authentication
+
+Indicators of RDP brute force attacks
+
+Correlation with authentication success
+
+2. Suspicious PowerShell Execution
+
+Event ID 4104 — Script Block Logging
+
+Event ID 4688 — New Process Creation
+
+Event ID 800 — PowerShell Operational logs
+
+Encoded commands, download Cradles, recon commands
+
+3. Privilege Escalation
 
 Event ID 4672 — Special Privileges Assigned
 
-Persistence Techniques
+Event ID 4728/4732 — User added to privileged group
+
+4. Persistence Techniques
+
+Event ID 4698 — Scheduled Task Created
 
 Event ID 7045 — New Service Installed
 
-🛠️ Tools and Technologies
+5. Defense Evasion
+
+Event ID 1102 — Security Log Cleared
+
+6. Full Attack Storyline
+
+The project includes a complete adversary simulation from:
+Brute force → Compromise → PowerShell → Persistence → Log clearing.
+
+🛠️ Tools & Technologies Used
 
 Windows Event Viewer
 
-Sysmon
+Sysmon (System Monitor) for enhanced visibility
 
-Sigma Rules
+PowerShell (log parsing)
 
-PowerShell
+Sigma Rules & YAML detections
 
-ELK / Splunk (optional for advanced visualization)
+Elastic / Splunk (optional advanced)
+
+MITRE ATT&CK Framework
+
+Power BI dashboards
+
+CSV Datasets for visualization
+
+📊 Power BI Visualizations (Included in Project)
+
+You will create dashboards using CSV datasets, including:
+
+Brute Force Attack Heatmap
+
+Successful vs Failed Logon Timeline
+
+PowerShell Malicious Activity Dashboard
+
+Suspicious Account Modifications
+
+Event Volume by Severity
+
+Attack Kill-Chain Walkthrough
+
+These screenshots will be stored in the /Screenshots/ folder.
 
 🧪 How to Use This Project
 
-Open the Data-Samples/ folder → review event logs.
+Open Data-Samples/
+Explore XML/CSV event logs (malicious + normal activity).
 
-Open the Detection-Rules/ folder → view detection logic.
+Review Detection-Rules/
+Look at Sigma-style detection logic for each attack technique.
 
-Open the Investigation-Notes/ folder → follow analysis steps.
+Explore Investigation-Notes/
+See a complete SOC investigation, timeline, and findings.
 
-Use the repository to demonstrate Blue Team skills.
+Check Screenshots/
+Contains images of logs, dashboards, and detections.
 
-📝 Future Improvements
+Import CSV files into Power BI
+Build dashboards included in this project.
 
-Add automated detection testing (e.g., Invoke-AtomicRedTeam).
+Use the README to present the project during job interviews.
 
-Add visual dashboards.
+📝 Skills Demonstrated
 
-Add MITRE ATT&CK mappings.
+This project highlights:
+
+Log analysis
+
+Threat hunting
+
+TTP detection
+
+Sysmon expertise
+
+Incident response
+
+Detection engineering
+
+Correlation of event IDs
+
+Power BI cybersecurity reporting
+
+Documentation & SOC communication
+
+MITRE ATT&CK mapping
+
+These match real SOC job descriptions.
+
+🚀 Future Improvements
+
+Add Atomic Red Team automated tests
+
+Add Elastic SIEM dashboards
+
+Add KQL queries for Microsoft Sentinel
+
+Add a Sysmon configuration file
+
+Expand to include malware artifacts & DFIR triage
 
 👤 Author
 
 Mered Mulugeta
-Cybersecurity | SOC Analyst | Blue Teaming | Threat Detection
-
-✅ NEXT STEP
+Cybersecurity | SOC Analyst | Blue Team | Threat Detection
+GitHub Portfolio • Windows Event Log Threat Detection Project
