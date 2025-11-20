@@ -1,0 +1,2 @@
+{"EventID":1000,"Level":"Error","TimeCreated":"2025-01-20T09:30:21Z","Application":"chrome.exe","FaultingModule":"ntdll.dll","Message":"Application error."}
+{"EventID":1026,"Level":"Error","TimeCreated":"2025-01-20T09:32:44Z","Application":"PayrollApp.exe","Message":".NET Runtime encountered a fatal error."}

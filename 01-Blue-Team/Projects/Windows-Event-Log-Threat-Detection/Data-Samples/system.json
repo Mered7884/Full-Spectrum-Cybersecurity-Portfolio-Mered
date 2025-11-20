@@ -1,0 +1,2 @@
+{"EventID":7036,"Level":"Information","TimeCreated":"2025-01-20T09:00:10Z","Service":"Windows Update","Message":"The Windows Update service entered the running state."}
+{"EventID":7045,"Level":"Warning","TimeCreated":"2025-01-20T11:12:55Z","ServiceName":"RemoteSync","BinaryPath":"C:\\Users\\Public\\remotesync.exe","Message":"A new service was installed on the system."}

@@ -1,0 +1,4 @@
+{"EventID":4624,"Level":"Information","TimeCreated":"2025-01-20T10:14:22Z","TargetUserName":"Mered","LogonType":2,"IpAddress":"127.0.0.1","Message":"An account was successfully logged on."}
+{"EventID":4625,"Level":"Warning","TimeCreated":"2025-01-20T10:16:03Z","TargetUserName":"Administrator","LogonType":3,"IpAddress":"185.23.44.19","Message":"An account failed to log on."}
+{"EventID":4670,"Level":"Information","TimeCreated":"2025-01-20T10:25:18Z","ObjectName":"C:\\Sensitive\\HR.xlsx","Message":"Permissions on an object were changed."}
+{"EventID":4720,"Level":"Warning","TimeCreated":"2025-01-20T11:10:45Z","NewUser":"backup_admin","Creator":"SYSTEM","Message":"A user account was created."}

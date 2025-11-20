@@ -1,0 +1,5 @@
+{"EventID":1,"Image":"C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe","CommandLine":"powershell.exe -nop -w hidden -enc SQBFAFgA...","User":"Mered","Message":"Process Create"}
+{"EventID":3,"Image":"C:\\Users\\Public\\remotesync.exe","DestinationIP":"45.77.22.10","DestinationPort":443,"Message":"Network connection detected."}
+{"EventID":7,"Image":"C:\\Windows\\System32\\svchost.exe","LoadedModule":"C:\\Users\\Public\\temp\\evil.dll","Message":"Image loaded"}
+{"EventID":11,"TargetFilename":"C:\\Users\\Public\\AppData\\local\\temp\\payload.exe","Image":"C:\\Windows\\explorer.exe","Message":"File created"}
+{"EventID":13,"TargetObject":"HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Run\\Update","Details":"C:\\Users\\Public\\remotesync.exe","Message":"Registry value set"}
