@@ -1,0 +1,1 @@
+01-Blue-Team/Projects/Windows-Event-Log-Threat-Detection/data/raw-logs/Security.evtx filter=lfs diff=lfs merge=lfs -text
